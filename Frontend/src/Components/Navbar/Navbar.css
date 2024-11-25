@@ -1,0 +1,51 @@
+.Navbar-main{
+    /* background-color: #34495E; */
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin :10px;
+
+    font-size:16px;
+}
+.Navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subNav{
+    display: flex;
+    justify-content: space-between;
+    gap :30px
+}
+
+/* NavLink styling */
+.nav-link {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Active link styles */
+.nav-link.active {
+    color: white;
+    background-color: #1ABC9C; /* Active link background color */
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+    background-color: #34495E; /* Darker background on hover */
+    color: white;
+}
+.logo{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.logo:hover{
+    color: #1ABC9C;
+}

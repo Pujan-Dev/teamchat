@@ -1,0 +1,35 @@
+/* Footer styling */
+.Footer {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Link styling */
+  .Footer a {
+    text-decoration: none;
+    color: #4677ff;
+  }
+  
+  .Footer a:hover {
+    color: #0077b5;  /* Change color on hover */
+  }
+  
+  /* Social media icons container */
+  #social-media {
+    margin-top: 0px;
+  }
+  
+  /* Styling for each social media icon */
+  .social-icon {
+    margin: 0 15px;
+    display: inline-block;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    transition: transform 0.3s ease;
+  }
+  

@@ -1,0 +1,75 @@
+/* Home container styling */
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;  /* Light background color */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Heading styling */
+  .Home h1 {
+    font-size: 36px;
+    color: #34495e;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Paragraph styling */
+  .Home p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    width: 80%;  /* Limit width for better readability */
+  }
+  
+  /* Button container styling */
+  .Use-button {
+    margin-top: 30px;
+  }
+  
+  /* Button styling */
+  .Use-button .BUTTON {
+    padding: 12px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: #1ABC9C;  /* Greenish color for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .Use-button .BUTTON:hover {
+    background-color: #16a085;  /* Darker green on hover */
+    transform: scale(1.05);  /* Slight zoom effect */
+  }
+  
+  .Use-button .BUTTON:focus {
+    outline: none;  /* Remove the outline when the button is focused */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .Home {
+      padding: 15px;
+    }
+  
+    .Home h1 {
+      font-size: 28px;  /* Slightly smaller heading on mobile */
+    }
+  
+    .Home p {
+      font-size: 16px;  /* Adjust paragraph size on mobile */
+    }
+  
+    .Use-button button {
+      padding: 10px 25px;
+      font-size: 16px;  /* Adjust button size for mobile */
+    }
+  }
+  
